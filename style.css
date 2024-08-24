@@ -17,6 +17,7 @@ body {
 .content > div {
     margin-bottom: 2vh;
 }
+
 .name-buy {
     display: flex;
     align-items: center;
@@ -37,6 +38,9 @@ body {
 }
 .btn-buy:hover {
     background-color: #a66cd3;
+}
+.avatar-characteristics {
+    border-radius: 1vw;
 }
 .number-icon {
     font-size: 1vw;
@@ -60,7 +64,7 @@ h2 {
 }
 .avatar-characteristics > img {
     object-fit: cover;
-    border-radius: 0px 1vw 1vw 0px;
+    border-radius: 1vw;
     width: 14vw;
     height: 12vw
 }
@@ -99,7 +103,7 @@ h2 {
 .main-rating {
     color: white;
     font-size: 1vw;
-    height: 100%;
+    height: 85%;
     overflow-y: scroll; /* Включаем скролл только для контента */
     padding-right: 10px;
 }
@@ -108,6 +112,39 @@ h2 {
 }
 .location-rate {
     display: flex;
+}
+.sumbit-div {
+    display: flex;
+}
+textarea {
+    outline: none;
+    padding: 0.5vw;
+    background: white;
+    border: 0;
+    border-radius: 10vw;
+    resize: none;
+    width: 100%;
+}
+.label-input > p, .label-input2 > p {
+    color: white;
+    font-style: italic;
+}
+.label-input {
+    font-size: 0.9vw;
+    width: 35%;
+}
+.label-input2 {
+    font-size: 0.9vw;
+    margin-left: 5%;
+    width: 55%;
+}
+.sndmssg {
+    position: relative;
+    top: -2.1vw;
+    margin-left: 13vw;
+    fill: #b776e8;
+    stroke:green;
+    width: 1.5vw;
 }
 @media (orientation: portrait) {
     .content {
@@ -133,6 +170,15 @@ h2 {
         width: 4vh;
 
         margin-right: 1vh;
+    }
+    .sndmssg {
+        position: relative;
+        top: -3.9vh;
+        margin-left: auto;
+        margin-right: 2vw;
+        fill: #b776e8;
+        stroke:green;
+        width: 3vh;
     }
     h2 {
         font-size: 4vh;
@@ -189,6 +235,44 @@ h2 {
         font-size: 1.7vh;
     }
     .parent-main-rating {
-        height: 50vh;
+        height: 65vh;
+    }
+    .sumbit-div {
+        flex-flow: column;
+    }
+    textarea {
+        outline: none;
+        padding: 0.5vh;
+        background: white;
+        border: 0;
+        border-radius: 2vh;
+        resize: none;
+        width: 100%;
+    }
+    .label-input > p, .label-input2 > p {
+        color: white;
+    }
+    .label-input {
+        font-size: 2vh;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-rating {
+        height: 75%;
+    }
+    .label-input2 {
+        font-size: 2vh;
+        margin-left: 0%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .label-input2 > textarea {
+        font-size: 2vh;
+        margin-left: 0%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
