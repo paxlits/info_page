@@ -329,13 +329,15 @@ textarea {
         border-top: 2px solid gray;
         flex-flow: column;
         align-items: center;
+        justify-content: center;
     }
     .text-footer {
         font-size: 5vw;
+        margin: 0;
     }
     
     .img-footer {
-        
+        margin: 0;
         right: 0;
         width: 40vw;
         height: 13vw;
