@@ -314,22 +314,21 @@ textarea {
         margin-top: 2vh;
         margin-bottom: 2vh;
         width: 150vw;
-        height: 20vh;
+        height: 35vw;
         border-bottom: 2px solid gray;
         border-top: 2px solid gray;
         flex-flow: column;
         align-items: center;
     }
     .text-footer {
-        font-size: 4vh;
-        margin-bottom: 2vh;
+        font-size: 5vw;
     }
     
     .img-footer {
         
         right: 0;
-        width: 20vw;
-        height: 8.2vw;
+        width: 40vw;
+        height: 13vw;
         margin-left: 0;
     }
 }
