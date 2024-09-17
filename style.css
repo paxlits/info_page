@@ -66,7 +66,7 @@ h2 {
     object-fit: cover;
     border-radius: 1vw;
     width: 14vw;
-    height: 12vw
+    height: auto;
 }
 .block-text {
     color: white;
@@ -95,7 +95,7 @@ h2 {
 }
 .parent-main-rating {
     padding: 1vw;
-    height: 25vw;
+    height: 30vw;
     background-color: #b776e8;
     border-radius: 1.3vw;
     overflow: hidden;
@@ -126,6 +126,7 @@ textarea {
     padding: 0.5vw;
     background: white;
     border: 0;
+    font-size: 0.7vw;
     border-radius: 10vw;
     resize: none;
     width: 100%;
@@ -149,8 +150,36 @@ textarea {
 }
 .sndmssg {
     margin-right: 0.3vw;
-    width: 1.5vw;
+    width: 1vw;
 }
+
+.avatar {
+    background-image: url(avatar.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-color: black;
+    border-radius: 1vw;
+    width: 14vw;
+    height: auto;
+}
+.avatar:hover {
+    background-color: black;
+    opacity: 0.9;
+}
+.footer {
+    margin-top: 8vw;
+    display: flex;
+    width: 100%;
+}
+
+
+.img-footer {
+    right: 0;
+    width: 8vw;
+    height: 2.2vw;
+    margin-left: auto;
+}
+
 @media (orientation: portrait) {
     .content {
         display: flex;
@@ -184,6 +213,9 @@ textarea {
     h2 {
         font-size: 4vh;
     }
+    .textarea {
+        font-size: 2vh;
+    }
     .btn-buy {
         height: 5vh;
         font-size: 2vh;
@@ -210,7 +242,8 @@ textarea {
     }
     .block-text {
         padding: 1.2vh;
-        height: auto
+        height: auto;
+        width: 90vw;
     }
     .block-text > h3 {
         font-size: 2.3vh;
@@ -236,15 +269,17 @@ textarea {
         font-size: 1.7vh;
     }
     .parent-main-rating {
-        height: 65vh;
+        height: 100vh;
     }
     .sumbit-div {
         flex-flow: column;
     }
     textarea {
         outline: none;
-        padding: 0.5vh;
+        padding: 0.8vh;
         background: white;
+        font-size: 2.2vh;
+        width: 96.9%;
         border: 0;
         border-radius: 2vh;
         resize: none;
