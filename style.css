@@ -181,6 +181,9 @@ textarea {
 }
 
 @media (orientation: portrait) {
+    body {
+        overflow-y: none;
+    }
     .content {
         display: flex;
         align-items: center;
