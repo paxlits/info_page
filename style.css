@@ -182,7 +182,7 @@ textarea {
 
 @media (orientation: portrait) {
     body {
-        overflow-y: none;
+        overflow-x: none;
     }
     .content {
         display: flex;
